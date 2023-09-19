@@ -1,0 +1,9 @@
+streamlit
+fastapi
+uvicorn
+streamlit-option-menu
+joblib
+scikit-learn
+seaborn
+pandas
+imblearn
