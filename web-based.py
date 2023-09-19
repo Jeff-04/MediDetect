@@ -18,48 +18,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-def change_data(data):
-    if data[0] == "Ya":
-        data[0] = 1
-    else:
-        data[0] = 0
-
-    if data[1] == "Ya":
-        data[1] = 1
-    else:
-        data[1] = 0
-
-    if data[2] == "Ya":
-        data[2] = 1
-    else:
-        data[2] = 0
-
-    if data[3] == "Ya":
-        data[3] = 1
-    else:
-        data[3] = 0
-
-    if data[4] == "Normal":
-        data[4] = 2
-    elif data[4] == "Tinggi":
-        data[4] = 0
-    else:
-        data[4] = 1
-
-    if data[5] == "Normal":
-        data[5] = 2
-    elif data[5] == "Tinggi":
-        data[5] = 0
-    else:
-        data[5] = 1
-    
-    if data[6] == "Pria":
-        data[6] = 1
-    else:
-        data[6] = 0
-    
-    return data
-
 if 'menu' not in st.session_state:
     st.session_state['menu'] = None
 
