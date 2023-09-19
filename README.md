@@ -7,7 +7,7 @@
    - [Frontend (Streamlit)](#frontendstreamlit)
 - [Technology and Programming Language](#Technology-and-Programming-Language)
 - [How to Run the Program](#How-to-Run-the-Program)
-- [Live Demo](#Live-Demo)
+- [Preview](#preview)
 
 
 # Medical-Detection(MediDetect)
@@ -57,5 +57,20 @@ File : `web-based.py`
 
 Make sure you have Python 3.7+ installed before running this program.
 
-# Live-Demo
-Live Demo : https://scholarship-system.streamlit.app/
+# Preview
+## Frontend
+### Home
+<img src="image/home.png" alt="Home" style="width: 75%;">
+
+### Detection
+<img src="image/detection.png" alt="Detection" style="width: 75%;">
+
+### Info
+<img src="image/info.png" alt="Info" style="width: 75%;">
+
+## API
+<img src="image/api-1.png" alt="index" style="width: 75%;">
+<img src="image/api-2.png" alt="FastAPI Docs" style="width: 75%;">
+
+
+
